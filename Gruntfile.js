@@ -197,12 +197,15 @@ module.exports = function (grunt) {
         }
       }
     },
+
     connect: {
       server: {
         livereload: true,
         options: {
-          port: gruntConfig.configVars.port,
-          base: '<%= cvars.app %>'
+          hostname: process.env.IP,
+          port: process.env.PORT,
+          base: '<%= cvars.app %>',
+          livereload: 35729
         }
       }
     }

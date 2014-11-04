@@ -4,7 +4,7 @@ define(['app'], function (app) {
     // Simulate a service
     return {
       getRooms: function () {
-        return 'From chat_service: Here is a list of rooms';
+        return 'From chat_service: Here is a list of rooms 123 123 12';
       }
     };
   });
