@@ -1,4 +1,4 @@
-define(['angularAMD','angular','angular-ui-router','angular-resource','main/nav_service'], function (angularAMD) {
+define(['angularAMD','angular','angular-ui-router','ui-bootstrap-tpls','angular-resource','bootstrap','main/nav_service'], function (angularAMD) {
   'use strict';
   return angularAMD;
 });

@@ -1,5 +1,4 @@
 {
-
   "configVars": {
     "app": "app",
     "appjs": "scripts",
@@ -12,13 +11,17 @@
   "bowerFiles": [
     "angular/angular.js",
     "angular-route/angular-route.js",
-    "angularAMD/dist/angularAMD.js",
+	"angularAMD/dist/angularAMD.js",
     "angularAMD/dist/ngload.js",
-    "requirejs/require.js",
+    "jquery/dist/jquery.js",
+	"bootstrap/dist/js/bootstrap.js",
+	"requirejs/require.js",
     "es5-shim/es5-shim.js",
     "json3/lib/json3.js",
     "angular-resource/angular-resource.js",
-    "angular-ui-router/release/angular-ui-router.js"
+    "angular-ui-router/release/angular-ui-router.js",
+	"angular-ui-bootstrap-bower/ui-bootstrap.js",
+	"angular-ui-bootstrap-bower/ui-bootstrap-tpls.js"
   ],
   "cssFiles": [
     "bootstrap/dist/css/bootstrap.css"

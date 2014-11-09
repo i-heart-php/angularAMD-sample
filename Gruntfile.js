@@ -11,7 +11,8 @@ module.exports = function (grunt) {
    *       when cwd has been changed to `app` and grunt needs to reference './setup'
    */
   var gruntConfig = grunt.file.readJSON('Gruntconfig.json');
-
+  console.log(gruntConfig.bowerFiles);
+  
   // Grunt Config
   grunt.initConfig({
     cvars: gruntConfig.configVars,
@@ -202,8 +203,8 @@ module.exports = function (grunt) {
       server: {
         livereload: true,
         options: {
-          hostname: process.env.IP,
-          port: process.env.PORT,
+          hostname: 'localhost',
+          port: 8080,
           base: '<%= cvars.app %>',
           livereload: 35729
         }
