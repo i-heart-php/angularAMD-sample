@@ -7,8 +7,7 @@ Sample App created using angularAMD
 To setup and run this project, do the following:
 
 ```
-npm install
-grunt setup
+bash setup.sh
 grunt devel
 ```
 
